@@ -65,7 +65,7 @@ function openModal(e) {
   const modalWindow = document.querySelector(e.target.dataset.modalTarget);
   if (modalWindow == null) return;
   if (e.target.modalTarget === '#login') {
-    alert('используйте данные из файла "README.md"');
+    alert('используйте данные из файла "README.md. Пример : login Tom Colt, pin 1111"');
   }
   modalWindow.classList.add('active');
   overlay.classList.add('active');
